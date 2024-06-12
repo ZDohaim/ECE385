@@ -1,0 +1,15 @@
+timestamp=[2024-03-30 01:18:28], mode=WORKBENCH_START, duration=0:00:05.189, duration_ms=5189, data={}
+timestamp=[2024-03-30 01:18:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.392, duration_ms=392, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-03-30 01:18:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.997, duration_ms=997, data={}
+timestamp=[2024-03-30 02:34:08], mode=APP_CREATION, duration=0:00:06.590, duration_ms=6590, data={name=suffyani, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_usb_hdmi_top, application_type=application}
+timestamp=[2024-03-30 02:39:25], mode=PLATFORM_GENERATION, duration=0:00:03.852, duration_ms=3852, data={name=mb_usb_hdmi_top}
+timestamp=[2024-03-30 02:40:07], mode=PLATFORM_GENERATION, duration=0:00:07.279, duration_ms=7279, data={name=mb_usb_hdmi_top}
+timestamp=[2024-03-30 02:40:09], mode=BUILD, duration=0:00:02.072, duration_ms=2072, data={name=suffyani, configuration=Debug, clean_build=false}
+timestamp=[2024-03-30 02:41:31], mode=PLATFORM_GENERATION, duration=0:00:04.222, duration_ms=4222, data={name=mb_usb_hdmi_top}
+timestamp=[2024-03-30 02:41:31], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=suffyani, configuration=Debug, clean_build=true}
+timestamp=[2024-03-30 02:42:24], mode=PLATFORM_GENERATION, duration=0:00:05.889, duration_ms=5889, data={name=mb_usb_hdmi_top}
+timestamp=[2024-03-30 02:42:25], mode=BUILD, duration=0:00:01.545, duration_ms=1545, data={name=suffyani, configuration=Debug, clean_build=false}
+timestamp=[2024-03-30 02:43:12], mode=PLATFORM_GENERATION, duration=0:00:04.268, duration_ms=4268, data={name=mb_usb_hdmi_top}
+timestamp=[2024-03-30 02:43:13], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=suffyani, configuration=Debug, clean_build=true}
+timestamp=[2024-03-30 02:43:22], mode=PLATFORM_GENERATION, duration=0:00:05.934, duration_ms=5934, data={name=mb_usb_hdmi_top}
+timestamp=[2024-03-30 02:43:23], mode=BUILD, duration=0:00:01.543, duration_ms=1543, data={name=suffyani, configuration=Debug, clean_build=false}

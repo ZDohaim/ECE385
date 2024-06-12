@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sim_1/new/testbench.sv,1707443019,systemVerilog,,,,testbench,,uvm,,,,,,
+U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv,1707433298,systemVerilog,U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sim_1/new/testbench.sv;U:/Desktop/design_source/adder_toplevel.sv;U:/Desktop/design_source/hex_driver.sv;U:/Desktop/design_source/load_reg.sv;U:/Desktop/design_source/lookahead_adder.sv;U:/Desktop/design_source/negedge_detector.sv;U:/Desktop/design_source/sync_debounce.sv,U:/Desktop/design_source/lookahead_adder.sv,,ADDER4;Ripple_ADDER16;full_adder,,uvm,,,,,,
+U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/mux.sv,1707432552,systemVerilog,,U:/Desktop/design_source/select_adder.sv,,mux,,uvm,,,,,,
+U:/Desktop/design_source/adder_toplevel.sv,1707442135,systemVerilog,U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sim_1/new/testbench.sv;U:/Desktop/design_source/hex_driver.sv;U:/Desktop/design_source/load_reg.sv;U:/Desktop/design_source/lookahead_adder.sv;U:/Desktop/design_source/negedge_detector.sv;U:/Desktop/design_source/sync_debounce.sv,U:/Desktop/design_source/hex_driver.sv,,adder_toplevel,,uvm,,,,,,
+U:/Desktop/design_source/hex_driver.sv,1707431982,systemVerilog,,U:/Desktop/design_source/load_reg.sv,,hex_driver,,uvm,,,,,,
+U:/Desktop/design_source/load_reg.sv,1707431982,systemVerilog,,U:/Desktop/design_source/lookahead_adder.sv,,load_reg,,uvm,,,,,,
+U:/Desktop/design_source/lookahead_adder.sv,1707441871,systemVerilog,,U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sim_1/new/testbench.sv,,carrylookaheadadder;lookahead_adder,,uvm,,,,,,
+U:/Desktop/design_source/negedge_detector.sv,1707431982,systemVerilog,,U:/Desktop/design_source/sync_debounce.sv,,negedge_detector,,uvm,,,,,,
+U:/Desktop/design_source/select_adder.sv,1707435450,systemVerilog,,,,select_adder,,uvm,,,,,,
+U:/Desktop/design_source/sync_debounce.sv,1707431983,systemVerilog,,U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sim_1/new/testbench.sv,,sync_debounce,,uvm,,,,,,

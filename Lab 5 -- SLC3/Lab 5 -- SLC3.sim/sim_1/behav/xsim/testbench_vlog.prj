@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab 5 -- SLC3.srcs/sources_1/new/busmux.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/control.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/cpu.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/cpu_to_io.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/hex_driver.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/instantiate_ram.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/load_reg.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/memory.sv" \
+"../../../../Lab 5 -- SLC3.srcs/sources_1/new/mux.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/processor_top.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/slc3.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/sync.sv" \
+"../../../../../LAB 5 PROVIDED/srcs/test_memory.sv" \
+"../../../../Lab 5 -- SLC3.srcs/sim_1/new/TestBench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

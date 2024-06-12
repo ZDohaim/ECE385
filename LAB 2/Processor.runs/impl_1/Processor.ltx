@@ -1,0 +1,220 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_0",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "23E7D65A79BC59F7BC47406C1714DFAE",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "Aval_OBUF",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "Aval_OBUF[7]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[6]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[5]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[4]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[3]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[2]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[1]"
+                                            },
+                                            {
+                                                "name": "Aval_OBUF[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "LED_OBUF",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "LED_OBUF[3]"
+                                            },
+                                            {
+                                                "name": "LED_OBUF[2]"
+                                            },
+                                            {
+                                                "name": "LED_OBUF[1]"
+                                            },
+                                            {
+                                                "name": "LED_OBUF[0]",
+                                                "parentNetId": 11
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "Bval_OBUF",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "Bval_OBUF[7]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[6]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[5]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[4]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[3]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[2]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[1]"
+                                            },
+                                            {
+                                                "name": "Bval_OBUF[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "Execute_IBUF",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 11,
+                        "name": "button_sync[3]/LED_OBUF[0]",
+                        "state_reg": [
+                            {
+                                "name": "control_unit/FSM_onehot_curr_state_reg[1]",
+                                "states": [
+                                    {
+                                        "name": "s_count2",
+                                        "val": "00000001000"
+                                    },
+                                    {
+                                        "name": "s_count3",
+                                        "val": "00000010000"
+                                    },
+                                    {
+                                        "name": "s_count1",
+                                        "val": "00000000100"
+                                    },
+                                    {
+                                        "name": "s_count0",
+                                        "val": "00000000010"
+                                    },
+                                    {
+                                        "name": "s_start",
+                                        "val": "00000000001"
+                                    },
+                                    {
+                                        "name": "s_done",
+                                        "val": "01000000000"
+                                    },
+                                    {
+                                        "name": "s_count6",
+                                        "val": "00010000000"
+                                    },
+                                    {
+                                        "name": "s_count7",
+                                        "val": "00100000000"
+                                    },
+                                    {
+                                        "name": "s_count5",
+                                        "val": "00001000000"
+                                    },
+                                    {
+                                        "name": "iSTATE",
+                                        "val": "10000000000"
+                                    },
+                                    {
+                                        "name": "s_count4",
+                                        "val": "00000100000"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

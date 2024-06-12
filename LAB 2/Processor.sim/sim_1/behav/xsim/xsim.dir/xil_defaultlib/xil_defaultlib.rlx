@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+U:/Downloads/Control.sv,1706808588,systemVerilog,U:/Downloads/HexDriver.sv;U:/Downloads/Processor.sv;U:/Downloads/Reg_4.sv;U:/Downloads/Register_unit.sv;U:/Downloads/Router.sv;U:/Downloads/Synchronizers.sv;U:/Downloads/compute.sv;U:/Downloads/sim_sources/testbench_8.sv,U:/Downloads/HexDriver.sv,,$unit_Control_sv_1411822023;control,,uvm,,,,,,
+U:/Downloads/HexDriver.sv,1706805425,systemVerilog,,U:/Downloads/Reg_4.sv,,HexDriver,,uvm,,,,,,
+U:/Downloads/Processor.sv,1706811738,systemVerilog,,U:/Downloads/Reg_4.sv,,Processor,,uvm,,,,,,
+U:/Downloads/Reg_4.sv,1706808711,systemVerilog,,U:/Downloads/Register_unit.sv,,reg_4,,uvm,,,,,,
+U:/Downloads/Register_unit.sv,1706806015,systemVerilog,,U:/Downloads/Router.sv,,register_unit,,uvm,,,,,,
+U:/Downloads/Router.sv,1706805425,systemVerilog,,U:/Downloads/Synchronizers.sv,,router,,uvm,,,,,,
+U:/Downloads/Synchronizers.sv,1706805425,systemVerilog,,U:/Downloads/compute.sv,,sync_debounce,,uvm,,,,,,
+U:/Downloads/compute.sv,1706805425,systemVerilog,,U:/Downloads/Processor.sv,,compute,,uvm,,,,,,
+U:/Downloads/sim_sources/testbench_8.sv,1706805379,systemVerilog,,,,testbench8,,uvm,,,,,,
+U:/Processor/Processor.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,

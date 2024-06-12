@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+WARNING: 0ns : none of the conditions were true for unique case from File:U:/Downloads/compute.sv:14
+WARNING: 0ns : none of the conditions were true for unique case from File:U:/Downloads/Router.sv:13
+WARNING: 0ns : none of the conditions were true for unique case from File:U:/Downloads/Router.sv:23
+WARNING: 0ns : none of the conditions were true for unique case from File:U:/Downloads/Control.sv:66
+$finish called at time : 1620 ns : File "U:/Downloads/sim_sources/testbench_8.sv" Line 127

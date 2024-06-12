@@ -1,0 +1,2781 @@
+!SESSION 2024-03-30 01:15:30.660 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2024-03-30 01:18:28.047
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:32.500
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:32.501
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:32.513
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.131
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.132
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.133
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.134
+!MESSAGE XSCT Command: [setws C:/Users/mta8/Desktop/Lab7], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.134
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.152
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2022.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 01:18:33.154
+!MESSAGE XSCT command with result: [setws C:/Users/mta8/Desktop/Lab7], Result: [null, ]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-03-30 02:33:08.689
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:38.386
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:38.627
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:38.652
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:38.656
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Mar 30 02:10:39 2024",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:38.659
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:38.664
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"hdmi_text_controller_0": {"hier_name": "hdmi_text_controller_0",
+"type": "hdmi_text_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:50.753
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:50.763
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:50.767
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa microblaze_0 C_DATA_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:50.769
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa microblaze_0 C_DATA_SIZE], Result: [null, 32]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:58.229
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:58.278
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program for baremetal environment.",
+"supp_proc": "microblaze psu_cortexa53 ps7_cortexa9 psv_cortexa72 psu_cortexr5 psv_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application(C)",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72 psxl_cortexr52 psx_cortexr52 psx_cortexa78 psxl_cortexa78",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"imgsel": {"userdefname": "Image Selector",
+"description": "ImgSel for Zynq Ultrascale+ MPSoC. The Image Selector  selects the image based on configuration parameters",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/imgsel",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"img_rcvry": {"userdefname": "Image Recovery",
+"description": "Image Recovery tool which writes  user selected images on the board.",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/img_rcvry",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc psxl_pmc psx_pmc",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm psxl_psm psx_psm",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:58.352
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:58.367
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:58.370
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:58.382
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:59.522
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:33:59.535
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:02.464
+!MESSAGE XSCT Command: [platform create -name {mb_usb_hdmi_top} -hw {C:\Users\mta8\Desktop\Lab7\mb_usb_hdmi_top.xsa} -out {C:/Users/mta8/Desktop/Lab7};platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:02.681
+!MESSAGE XSCT command with result: [platform create -name {mb_usb_hdmi_top} -hw {C:\Users\mta8\Desktop\Lab7\mb_usb_hdmi_top.xsa} -out {C:/Users/mta8/Desktop/Lab7};platform write], Result: [null, Successfully saved  the platform at "C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:02.690
+!MESSAGE XSCT Command: [domain create -name {standalone_microblaze_0} -display-name {standalone_microblaze_0} -os {standalone} -proc {microblaze_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Thread: ModalContext
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-03-30 02:34:02.707
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.part.IntroPart.dispose(IntroPart.java:99)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:153)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:200)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:945)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1406)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1537)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1496)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2609)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.closeIntro(WorkbenchIntroManager.java:98)
+	at com.xilinx.sdx.ui.utils.SWTUtils.closeWelcomeView(SWTUtils.java:529)
+	at com.xilinx.sdx.scw.project.ScwProjectCreationHandler$1.run(ScwProjectCreationHandler.java:71)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.execute(NewProjectCreationHandler.java:105)
+	at com.xilinx.sdx.npw.NewProjectWizard._createApplicationProject(NewProjectWizard.java:214)
+	at com.xilinx.sdx.npw.NewProjectWizard.performFinish(NewProjectWizard.java:161)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.806
+!MESSAGE XSCT command with result: [domain create -name {standalone_microblaze_0} -display-name {standalone_microblaze_0} -os {standalone} -proc {microblaze_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.810
+!MESSAGE XSCT Command: [platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.838
+!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.849
+!MESSAGE XSCT Command: [platform active {mb_usb_hdmi_top}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.851
+!MESSAGE XSCT command with result: [platform active {mb_usb_hdmi_top}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.853
+!MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:05.936
+!MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "C:/Users/mta8/Desktop/Lab7"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.108
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.302
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.303
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.308
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"hdmi_text_controller_0": {"hier_name": "hdmi_text_controller_0",
+"type": "hdmi_text_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.330
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.334
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.336
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:07.340
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.412
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_REORDER_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.415
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_REORDER_INSTR], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.416
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_ENDIANNESS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.419
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.420
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_BARREL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.422
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_BARREL], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.436
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_PCMP_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.439
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_PCMP_INSTR], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.440
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_DIV], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.449
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.450
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_FPU], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.453
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.456
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_HW_MUL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.459
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_USE_HW_MUL], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.460
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_AREA_OPTIMIZED], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.463
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_AREA_OPTIMIZED], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.483
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.490
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.491
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.494
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.495
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.513
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.514
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.533
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Result: [null, axi_uartlite_0 hdmi_text_controller_0 microblaze_0_axi_intc microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.534
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.538
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, {"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.7",
+},
+"hdmi_text_controller_0": {"name": "hdmi_text_controller",
+"ver": "1.0",
+},
+"microblaze_0_axi_intc": {"name": "intc",
+"ver": "3.15",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.8",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.8",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.16",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.539
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.586
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"uartlite_v3_7": {"name": "uartlite",
+"version": "3.7",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"clk_wiz_v1_5": {"name": "clk_wiz",
+"version": "1.5",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"hdmi_text_controller_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"hdmi_text_controller_v1_0": {"name": "hdmi_text_controller",
+"version": "1.0",
+"repo": "C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/drivers/hdmi_text_controller_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"uartlite_v3_7": {"name": "uartlite",
+"version": "3.7",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"cpu_v2_16": {"name": "cpu",
+"version": "2.16",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_16",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_intc": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"intc_v3_15": {"name": "intc",
+"version": "3.15",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_15",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"bram_v4_8": {"name": "bram",
+"version": "4.8",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"bram_v4_8": {"name": "bram",
+"version": "4.8",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.589
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.607
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.608
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.611
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.636
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.638
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.639
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.642
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.643
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -sw C:/Users/mta8/Desktop/Lab7/suffyani/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/Users/mta8/Desktop/Lab7/suffyani/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.738
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -sw C:/Users/mta8/Desktop/Lab7/suffyani/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/Users/mta8/Desktop/Lab7/suffyani/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.781
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\mta8\Desktop\Lab7\suffyani\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.822
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\mta8\Desktop\Lab7\suffyani\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.823
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.826
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Mar 30 02:10:39 2024",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.877
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:08.879
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/suffyani/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-03-30 02:34:08.907
+!MESSAGE Generating MD5 hash for file: C:\Users\mta8\Desktop\Lab7\mb_usb_hdmi_top\export\mb_usb_hdmi_top\sw\mb_usb_hdmi_top\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:10.068
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:34:10.072
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/mta8/AppData/Local/Temp/hwspec_mb_usb_hdmi_top6100738572749218090/mb_usb_hdmi_top.xsa], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-30 02:34:10.316
+!MESSAGE Indexed 'suffyani_system' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-30 02:34:12.375
+!MESSAGE Indexed 'mb_usb_hdmi_top' (159 sources, 178 headers) in 2.05 sec: 4,535 declarations; 17,469 references; 94 unresolved inclusions; 42 syntax errors; 369 unresolved names (1.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-30 02:34:12.579
+!MESSAGE Indexed 'suffyani' (2 sources, 52 headers) in 0.201 sec: 1,538 declarations; 2,230 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2024-03-30 02:37:15.690
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element helloworld.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:484)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:580)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:362)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2024-03-30 02:37:15.690
+!MESSAGE Element helloworld.c does not exist.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-03-30 02:37:52.483
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-03-30 02:37:52.483
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-03-30 02:37:52.484
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.help.base 2 0 2024-03-30 02:40:04.087
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.user_5.4.0.201802261533 [169]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:07.169
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss ], Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:07.173
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:07.174
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:07.178
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-03-30 02:40:07.179
+!MESSAGE Generating MD5 hash for file: C:\Users\mta8\Desktop\Lab7\mb_usb_hdmi_top\export\mb_usb_hdmi_top\sw\mb_usb_hdmi_top\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:07.180
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:07.183
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.363
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.365
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.366
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.369
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.369
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.372
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.747
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.749
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.750
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.755
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"hdmi_text_controller_0": {"hier_name": "hdmi_text_controller_0",
+"type": "hdmi_text_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.757
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:42.759
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Mar 30 02:10:39 2024",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.786
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.795
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.797
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.812
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Result: [null, {"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"hdmi_text_controller_0": {},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.815
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.826
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4061FFFF",
+"size": "131072",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4121FFFF",
+"size": "131072",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"hdmi_text_controller_0_AXI": {"name": "hdmi_text_controller_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.828
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.831
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.833
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa mdm_1], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa mdm_1], Result: [null, {}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.837
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa mdm_1], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.841
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.842
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa mdm_1], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.844
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.845
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.847
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.848
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.850
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:50.852
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:40:53.147
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:40:53.148
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.191
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.193
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.375
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 8874292302A3A]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.377
+!MESSAGE XSCT Command: [version -server], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.379
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.380
+!MESSAGE XSCT Command: [version], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.381
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.385
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.391
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 8874292302A3A]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.392
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.406
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.408
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.414
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 8874292302A3A]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.415
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.429
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.430
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.436
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 8874292302A3A]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.436
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.451
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.456
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.462
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 8874292302A3A]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.463
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.477
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.478
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.483
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 8874292302A3A]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.484
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.499
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.500
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.514
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.514
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.516
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.517
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.519
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.536
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.541
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.542
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.555
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.558
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.560
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.560
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.566
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.566
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.568
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.568
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.574
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.574
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.589
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.590
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.592
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn1-0362f093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.595
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.625
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:53.626
+!MESSAGE XSCT Command: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.895
+!MESSAGE XSCT command with result: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.916
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.931
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.932
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.962
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Result: [null, mb_usb_hdmi_top_1]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.963
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.965
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.966
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.979
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.980
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.985
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:54.986
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:57.994
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:57.995
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.011
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.012
+!MESSAGE XSCT Command: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.047
+!MESSAGE XSCT command with result: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.060
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.075
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.076
+!MESSAGE XSCT Command: [con], Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.089
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-16: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.094
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-176
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.096
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-176
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.479
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.484
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.485
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.493
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.494
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.496
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.496
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.497
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.498
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.503
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.504
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.518
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.519
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.525
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.525
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.539
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.540
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.546
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.546
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.561
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.561
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.567
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.568
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.582
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.583
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.588
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.589
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.603
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.604
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.618
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.618
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.620
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.633
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.639
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.639
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.653
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.654
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.695
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:58.696
+!MESSAGE XSCT Command: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:59.959
+!MESSAGE XSCT command with result: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:59.982
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:59.995
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:40:59.996
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.002
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Result: [null, mb_usb_hdmi_top_1]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.003
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.005
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.005
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.038
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.039
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.042
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:00.043
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.047
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.048
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.064
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.065
+!MESSAGE XSCT Command: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.100
+!MESSAGE XSCT command with result: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.106
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.122
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.122
+!MESSAGE XSCT Command: [con], Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.130
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.142
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-208
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:41:03.144
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-208
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:42:24.268
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss ], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:42:24.273
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:42:24.274
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:42:24.277
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-03-30 02:42:24.278
+!MESSAGE Generating MD5 hash for file: C:\Users\mta8\Desktop\Lab7\mb_usb_hdmi_top\export\mb_usb_hdmi_top\sw\mb_usb_hdmi_top\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:42:24.279
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:42:24.281
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:22.322
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss ], Thread: Worker-21: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:22.326
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-21: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:22.327
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Thread: Worker-21: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:22.331
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-21: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-03-30 02:43:22.332
+!MESSAGE Generating MD5 hash for file: C:\Users\mta8\Desktop\Lab7\mb_usb_hdmi_top\export\mb_usb_hdmi_top\sw\mb_usb_hdmi_top\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:22.333
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Thread: Worker-21: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:22.335
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-21: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:25.773
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:43:27.944
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:43:27.945
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:43:27.946
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:43:27.947
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:43:27.947
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:43:27.948
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:27.986
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#9]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:27.987
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.093
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.093
+!MESSAGE XSCT Command: [version -server], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.095
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.096
+!MESSAGE XSCT Command: [version], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.097
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.098
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.103
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.103
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.117
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.118
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.123
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.124
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.138
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.139
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.144
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.145
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.158
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.159
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.164
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.165
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.179
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.180
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.185
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.186
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.200
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.201
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.214
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.215
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.217
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.233
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.238
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.238
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.252
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.253
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.277
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:28.278
+!MESSAGE XSCT Command: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.541
+!MESSAGE XSCT command with result: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.561
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.575
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.576
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.580
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Result: [null, mb_usb_hdmi_top_1]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.581
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.583
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.584
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.598
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.599
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.603
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:29.603
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.619
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.620
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.636
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.637
+!MESSAGE XSCT Command: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.945
+!MESSAGE XSCT command with result: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.951
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.965
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.966
+!MESSAGE XSCT Command: [con], Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.984
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-24: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.995
+!MESSAGE XSCT Command: [disconnect tcfchan#9], Thread: Thread-291
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:43:32.998
+!MESSAGE XSCT command with result: [disconnect tcfchan#9], Result: [null, ]. Thread: Thread-291
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:20.855
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:45:22.994
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:45:23.004
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:45:23.005
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:45:23.006
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:45:23.007
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-03-30 02:45:23.008
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.042
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#10]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.043
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.167
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.168
+!MESSAGE XSCT Command: [version -server], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.170
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.171
+!MESSAGE XSCT Command: [version], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.172
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.172
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.177
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.178
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.191
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.192
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.198
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.198
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.213
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.214
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.219
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.220
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.234
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.234
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.240
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.240
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.254
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.255
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.260
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.261
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.274
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.275
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.289
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 8874292302A3A" && level == 0}], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.290
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.291
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.309
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.314
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 8874292302A3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.314
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.328
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.329
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.353
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302A3A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:23.354
+!MESSAGE XSCT Command: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.617
+!MESSAGE XSCT command with result: [fpga -file C:/Users/mta8/Desktop/Lab7/suffyani/_ide/bitstream/mb_usb_hdmi_top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.636
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.650
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.651
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.656
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/mta8/Desktop/Lab7/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs], Result: [null, mb_usb_hdmi_top_1]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.657
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.658
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.659
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.672
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.673
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.678
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:24.679
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:27.695
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:27.697
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:27.712
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:27.713
+!MESSAGE XSCT Command: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.021
+!MESSAGE XSCT command with result: [dow C:/Users/mta8/Desktop/Lab7/suffyani/Debug/suffyani.elf], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.026
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.066
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.067
+!MESSAGE XSCT Command: [con], Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.076
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-25: Launching Debugger_suffyani-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.085
+!MESSAGE XSCT Command: [disconnect tcfchan#10], Thread: Thread-323
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-30 02:45:28.087
+!MESSAGE XSCT command with result: [disconnect tcfchan#10], Result: [null, ]. Thread: Thread-323

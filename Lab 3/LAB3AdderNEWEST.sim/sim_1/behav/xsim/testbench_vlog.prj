@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" \
+"../../../../../design_source/lookahead_adder.sv" \
+"../../../../LAB3AdderNEWEST.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

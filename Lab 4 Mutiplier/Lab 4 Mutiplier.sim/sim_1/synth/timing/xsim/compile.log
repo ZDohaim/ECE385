@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.sim/sim_1/synth/timing/xsim/testbench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controlunit
+INFO: [VRFC 10-311] analyzing module HexDriver
+INFO: [VRFC 10-311] analyzing module Xregister
+INFO: [VRFC 10-311] analyzing module multiplier_toplevel
+INFO: [VRFC 10-311] analyzing module register_unit
+INFO: [VRFC 10-311] analyzing module register_unit_0
+INFO: [VRFC 10-311] analyzing module sync_debounce
+INFO: [VRFC 10-311] analyzing module sync_debounce_1
+INFO: [VRFC 10-311] analyzing module sync_debounce_2
+INFO: [VRFC 10-311] analyzing module sync_debounce_3
+INFO: [VRFC 10-311] analyzing module sync_debounce_4
+INFO: [VRFC 10-311] analyzing module sync_debounce_5
+INFO: [VRFC 10-311] analyzing module sync_debounce_6
+INFO: [VRFC 10-311] analyzing module sync_debounce_7
+INFO: [VRFC 10-311] analyzing module sync_debounce_8
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sim_1/new/testbench-sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

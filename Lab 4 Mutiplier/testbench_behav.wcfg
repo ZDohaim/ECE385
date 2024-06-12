@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_multiplier_toplevel_sv_4229009324 " />
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="782.609 ns"></ZoomStartTime>
+      <ZoomEndTime time="828.407 ns"></ZoomEndTime>
+      <Cursor1Time time="936.292 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="95"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/testbench/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ResetLoad" type="logic">
+      <obj_property name="ElementShortName">ResetLoad</obj_property>
+      <obj_property name="ObjectShortName">ResetLoad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Sw" type="array">
+      <obj_property name="ElementShortName">Sw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Sw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Run" type="logic">
+      <obj_property name="ElementShortName">Run</obj_property>
+      <obj_property name="ObjectShortName">Run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hex_grid" type="array">
+      <obj_property name="ElementShortName">hex_grid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_grid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hex_seg" type="array">
+      <obj_property name="ElementShortName">hex_seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Xval" type="logic">
+      <obj_property name="ElementShortName">Xval</obj_property>
+      <obj_property name="ObjectShortName">Xval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/nothing" type="logic">
+      <obj_property name="ElementShortName">nothing</obj_property>
+      <obj_property name="ObjectShortName">nothing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Aout" type="array">
+      <obj_property name="ElementShortName">Aout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Aout[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Bout" type="array">
+      <obj_property name="ElementShortName">Bout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Bout[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/multi_pramod/activate/M" type="logic">
+      <obj_property name="ElementShortName">M</obj_property>
+      <obj_property name="ObjectShortName">M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/multi_pramod/activate/Shift" type="logic">
+      <obj_property name="ElementShortName">Shift</obj_property>
+      <obj_property name="ObjectShortName">Shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/multi_pramod/activate/Add" type="logic">
+      <obj_property name="ElementShortName">Add</obj_property>
+      <obj_property name="ObjectShortName">Add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/multi_pramod/activate/Sub" type="logic">
+      <obj_property name="ElementShortName">Sub</obj_property>
+      <obj_property name="ObjectShortName">Sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/multi_pramod/activate/Clear_A" type="logic">
+      <obj_property name="ElementShortName">Clear_A</obj_property>
+      <obj_property name="ObjectShortName">Clear_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/multi_pramod/activate/LoadB" type="logic">
+      <obj_property name="ElementShortName">LoadB</obj_property>
+      <obj_property name="ObjectShortName">LoadB</obj_property>
+   </wvobject>
+</wave_config>

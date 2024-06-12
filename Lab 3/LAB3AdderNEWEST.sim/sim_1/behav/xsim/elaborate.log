@@ -1,0 +1,102 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 19. Module Ripple_ADDER16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 1. Module lookahead_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 19. Module Ripple_ADDER16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 9. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 1. Module lookahead_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/design_source/lookahead_adder.sv" Line 40. Module carrylookaheadadder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/Desktop/LAB3AdderNEWEST/LAB3AdderNEWEST.srcs/sources_1/new/Rippleadder.sv" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.ADDER4
+Compiling module xil_defaultlib.Ripple_ADDER16
+Compiling module xil_defaultlib.carrylookaheadadder
+Compiling module xil_defaultlib.lookahead_adder
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

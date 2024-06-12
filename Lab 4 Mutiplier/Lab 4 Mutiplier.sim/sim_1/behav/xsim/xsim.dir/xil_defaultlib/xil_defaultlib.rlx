@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sim_1/new/testbench-sim.sv,1708973707,systemVerilog,,,,testbench,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Adder.sv,1707965499,systemVerilog,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sim_1/new/testbench-sim.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Controlunit.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/HexDriver.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Registersabx.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Synchronizers.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/multiplier_toplevel.sv,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Controlunit.sv,,Adder;full_adder,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Controlunit.sv,1707964061,systemVerilog,,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/HexDriver.sv,,Controlunit,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/HexDriver.sv,1707879340,systemVerilog,,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Registersabx.sv,,HexDriver,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Registersabx.sv,1707964057,systemVerilog,,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Synchronizers.sv,,Xregister;register_unit,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Synchronizers.sv,1707947830,systemVerilog,,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sim_1/new/testbench-sim.sv,,sync_debounce,,uvm,,,,,,
+U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/multiplier_toplevel.sv,1708134643,systemVerilog,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sim_1/new/testbench-sim.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Adder.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Controlunit.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/HexDriver.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Registersabx.sv;U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Synchronizers.sv,U:/Desktop/Lab 4 Mutiplier/Lab 4 Mutiplier.srcs/sources_1/new/Adder.sv,,$unit_multiplier_toplevel_sv_4229009324;multiplier_toplevel,,uvm,,,,,,

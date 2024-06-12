@@ -1,0 +1,20 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+U:/Desktop/LAB 5 PROVIDED/srcs/control.sv,1708642407,systemVerilog,U:/Desktop/LAB 5 PROVIDED/srcs/cpu.sv;U:/Desktop/LAB 5 PROVIDED/srcs/cpu_to_io.sv;U:/Desktop/LAB 5 PROVIDED/srcs/hex_driver.sv;U:/Desktop/LAB 5 PROVIDED/srcs/instantiate_ram.sv;U:/Desktop/LAB 5 PROVIDED/srcs/load_reg.sv;U:/Desktop/LAB 5 PROVIDED/srcs/memory.sv;U:/Desktop/LAB 5 PROVIDED/srcs/processor_top.sv;U:/Desktop/LAB 5 PROVIDED/srcs/slc3.sv;U:/Desktop/LAB 5 PROVIDED/srcs/sync.sv;U:/Desktop/LAB 5 PROVIDED/srcs/test_memory.sv;U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sources_1/new/muxbus.sv,U:/Desktop/LAB 5 PROVIDED/srcs/cpu.sv,,control,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/cpu.sv,1708645885,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/cpu_to_io.sv,,cpu,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/cpu_to_io.sv,1708622079,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/hex_driver.sv,,cpu_to_io,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/hex_driver.sv,1708622079,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/instantiate_ram.sv,,hex_driver,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/instantiate_ram.sv,1708622079,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/load_reg.sv,U:/Desktop/LAB 5 PROVIDED/srcs/types.sv,instantiate_ram,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/load_reg.sv,1708622079,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/memory.sv,,load_reg,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/memory.sv,1708622079,systemVerilog,,U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sources_1/new/mux.sv,,memory,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/processor_top.sv,1708641755,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/slc3.sv,,processor_top,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/slc3.sv,1708622080,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/sync.sv,,slc3,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/sync.sv,1708622080,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/test_memory.sv,,sync_debounce;sync_flop,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/test_memory.sv,1708622080,systemVerilog,,U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sim_1/new/TestBench.sv,U:/Desktop/LAB 5 PROVIDED/srcs/types.sv,test_memory,,uvm,,,,,,
+U:/Desktop/LAB 5 PROVIDED/srcs/types.sv,1708622080,verilog,U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sources_1/new/busmux.sv,,,SLC3_TYPES,,,,,,,,
+U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sim_1/new/TestBench.sv,1708641976,systemVerilog,,,,testbench,,uvm,,,,,,
+U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sources_1/new/busmux.sv,1708645288,systemVerilog,U:/Desktop/LAB 5 PROVIDED/srcs/control.sv;U:/Desktop/LAB 5 PROVIDED/srcs/cpu.sv;U:/Desktop/LAB 5 PROVIDED/srcs/cpu_to_io.sv;U:/Desktop/LAB 5 PROVIDED/srcs/hex_driver.sv;U:/Desktop/LAB 5 PROVIDED/srcs/instantiate_ram.sv;U:/Desktop/LAB 5 PROVIDED/srcs/load_reg.sv;U:/Desktop/LAB 5 PROVIDED/srcs/memory.sv;U:/Desktop/LAB 5 PROVIDED/srcs/processor_top.sv;U:/Desktop/LAB 5 PROVIDED/srcs/slc3.sv;U:/Desktop/LAB 5 PROVIDED/srcs/sync.sv;U:/Desktop/LAB 5 PROVIDED/srcs/test_memory.sv;U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sim_1/new/TestBench.sv;U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sources_1/new/mux.sv,U:/Desktop/LAB 5 PROVIDED/srcs/control.sv,,$unit_busmux_sv_1359969990;busmux,,uvm,,,,,,
+U:/Desktop/Lab 5 -- SLC3/Lab 5 -- SLC3.srcs/sources_1/new/mux.sv,1708640863,systemVerilog,,U:/Desktop/LAB 5 PROVIDED/srcs/processor_top.sv,,mux;mux21,,uvm,,,,,,

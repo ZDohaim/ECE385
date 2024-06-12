@@ -1,0 +1,87 @@
+13:14:02 **** Build of configuration Debug for project hashem ****
+make all 
+'Building file: ../src/HID.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HID.o" -IC:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HID.d" -MT"src/HID.o" -o "src/HID.o" "../src/HID.c"
+../src/HID.c:9:1: warning: braces around scalar initializer
+    9 | HID_DEVICE hid_device = { { 0 } };
+      | ^~~~~~~~~~
+../src/HID.c:9:1: note: (near initialization for 'hid_device.addr')
+'Finished building: ../src/HID.c'
+' '
+'Building file: ../src/MAX3421E.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MAX3421E.o" -IC:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MAX3421E.d" -MT"src/MAX3421E.o" -o "src/MAX3421E.o" "../src/MAX3421E.c"
+In file included from C:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xspi.h:303,
+                 from ../src/MAX3421E.c:14:
+../src/MAX3421E.c: In function 'SPI_init':
+C:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xstatus.h:44:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   44 | #define XST_DEVICE_NOT_FOUND            2L
+      |                                         ^~
+../src/MAX3421E.c:38:24: note: in expansion of macro 'XST_DEVICE_NOT_FOUND'
+   38 |                 return XST_DEVICE_NOT_FOUND;
+      |                        ^~~~~~~~~~~~~~~~~~~~
+../src/MAX3421E.c:32:6: note: declared here
+   32 | void SPI_init() {
+      |      ^~~~~~~~
+In file included from C:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xspi.h:303,
+                 from ../src/MAX3421E.c:14:
+C:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xstatus.h:43:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   43 | #define XST_FAILURE                     1L
+      |                                         ^~
+../src/MAX3421E.c:44:24: note: in expansion of macro 'XST_FAILURE'
+   44 |                 return XST_FAILURE;
+      |                        ^~~~~~~~~~~
+../src/MAX3421E.c:32:6: note: declared here
+   32 | void SPI_init() {
+      |      ^~~~~~~~
+../src/MAX3421E.c: In function 'MAX3421E_Task':
+../src/MAX3421E.c:311:46: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  311 |         if (XGpio_DiscreteRead(&Gpio_int, 1) & 0x01 == 0) {
+      |                                              ^
+../src/MAX3421E.c: In function 'MaxGpxHandler':
+../src/MAX3421E.c:347:14: warning: variable 'GPINIRQ' set but not used [-Wunused-but-set-variable]
+  347 |         BYTE GPINIRQ;
+      |              ^~~~~~~
+'Finished building: ../src/MAX3421E.c'
+' '
+'Building file: ../src/lw_usb_main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb_main.o" -IC:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lw_usb_main.d" -MT"src/lw_usb_main.o" -o "src/lw_usb_main.o" "../src/lw_usb_main.c"
+'Finished building: ../src/lw_usb_main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/transfer.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transfer.o" -IC:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/transfer.d" -MT"src/transfer.o" -o "src/transfer.o" "../src/transfer.c"
+../src/transfer.c:13:1: warning: braces around scalar initializer
+   13 | EP_RECORD dev0ep = {{ 0 }};         //Endpoint data structure for uninitialized device during enumeration
+      | ^~~~~~~~~
+../src/transfer.c:13:1: note: (near initialization for 'dev0ep.epAddr')
+../src/transfer.c: In function 'XferInTransfer':
+../src/transfer.c:199:7: warning: unused variable 'tmpbyte' [-Wunused-variable]
+  199 |  BYTE tmpbyte;
+      |       ^~~~~~~
+../src/transfer.c:198:7: warning: unused variable 'i' [-Wunused-variable]
+  198 |  BYTE i;
+      |       ^
+'Finished building: ../src/transfer.c'
+' '
+'Building target: hashem.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/mta8/Desktop/Post_Zippoed/FINAL_ATTEMP1/Lab6_temp/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hashem.elf"  ./src/HID.o ./src/MAX3421E.o ./src/lw_usb_main.o ./src/platform.o ./src/transfer.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hashem.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hashem.elf  |tee "hashem.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23800	    492	   3676	  27968	   6d40	hashem.elf
+'Finished building: hashem.elf.size'
+' '
+
+13:14:08 Build Finished (took 6s.16ms)
+
